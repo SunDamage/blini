@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="icon" type="image/png" href="../img/favicon.png">
+    <script src="../js/script.js"></script>
+    <title>Блинная</title>
+    <style>
+ 
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg" data-bs-theme="light">
+        <div class="container-fluid">
+            <a class="navbar-logo" href="../index.html">
+                <img src="../img/1.svg" title="На главную" class="header-logo" alt="logo" width="200">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+                <ul class="navbar-nav me-5">
+                    <li class="nav-item">
+                        <a class="nav-link" href="../index.html#menu">Блины</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../index.html#menu2">Сладкие блины</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../index.html#menu3">Добавки</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../index.html#menu4">Напитки</a>
+                    </li>
+                    <li class="nav-item">
+    <a class="nav-link" href="#" data-bs-toggle="modal" data-bs-target="#hotlineModal">Горячая линия</a>
+</li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">АКЦИИ</a>
+                    </li>
+                    <li>
+                        <button class="cart-button" data-bs-toggle="modal" data-bs-target="#cartModal">
+                            <svg class="cart-icon" viewBox="0 0 24 24">
+                                <path d="M7 18c-1.1 0-1.99.9-1.99 2S5.9 22 7 22s2-.9 2-2-.9-2-2-2zM1 2v2h2l3.6 7.59-1.35 2.45c-.16.28-.25.61-.25.96 0 1.1.9 2 2 2h12v-2H7.42c-.14 0-.25-.11-.25-.25l.03-.12.9-1.63h7.45c.75 0 1.41-.41 1.75-1.03l3.58-6.49c.08-.14.12-.31.12-.48 0-.55-.45-1-1-1H5.21l-.94-2H1zm16 16c-1.1 0-1.99.9-1.99 2s.89 2 1.99 2 2-.9 2-2-.9-2-2-2z"/>
+                            </svg>
+                            Корзина
+                        </button>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <div class="container my-5">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <h1>Наши акции</h1>
+                    <p class="lead">Специальные предложения для наших гостей</p>
+                </div>
+            </div>
+        </div>
+
+       <!-- Секция Б -->
+<section class="special-offers">
+    <div class="container">
+        <div class="row">
+            <!-- Б 1 -->
+            <div class="col-12 mb-4">
+                <div class="offer-card">
+                    <img src="../img/banner/1.png" 
+                         alt="Скидка на все блины" class="offer-img">
+                    <div class="offer-layer">
+                        <div class="offer-text">
+                            <h2 class="offer-heading">Скидка 20% на все блины</h2>
+                            <p class="offer-desc">Только в этом месяце! Успейте попробовать наши фирменные блины по специальной цене.</p>
+                            <a href="../index.html#menu" class="offer-btn">
+                                Заказать сейчас
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Б 2 -->
+            <div class="col-12 mb-4">
+                <div class="offer-card">
+                    <img src="../img/banner/2.jpg" 
+                         alt="Комбо набор" class="offer-img">
+                    <div class="offer-layer">
+                        <div class="offer-text">
+                            <h2 class="offer-heading">Семейный набор</h2>
+                            <p class="offer-desc">4 блина с разными начинками + напитки всего за 999 рублей. Идеально для семейного ужина!</p>
+                            <a href="../index.html#menu" class="offer-btn">
+                                Выбрать набор
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Б 3 -->
+            <div class="col-12 mb-4">
+                <div class="offer-card">
+                    <img src="../img/banner/1.jpg" 
+                         alt="Бесплатная доставка" class="offer-img">
+                    <div class="offer-layer">
+                        <div class="offer-text">
+                            <h2 class="offer-heading">Бесплатная доставка</h2>
+                            <p class="offer-desc">При заказе от 1500 рублей доставляем бесплатно в пределах города. Акция действует ежедневно!</p>
+                            <a href="../index.html#menu" class="offer-btn">
+                                Сделать заказ
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section footer-logo-section">
+                <a href="../index.html" class="footer-logo-link">
+                    <img src="../img/1.svg" class="footer-logo" alt="Блинная Сковородка" width="300">
+                </a>
+            </div>
+
+            <div class="footer-section">
+                <h3>О компании</h3>
+                <p>Мы создаем качественные продукты для наших клиентов с 2020 года.</p>
+            </div>
+            
+            <div class="footer-section">
+                <h3>Часы работы:</h3>
+                <p>Ежедневно 9:00-21:00</p>
+            </div>
+
+            <div class="footer-section">
+                <h3>Контакты</h3>
+                <p>Email: info@example.com</p>
+                <div class="phone-wrapper">
+                    <div class="phone-label">Телефон:</div>
+                    <button class="phone-btn" data-bs-toggle="modal" data-bs-target="#callModal">
+                        +7 (999) 1233000
+                    </button>
+                </div>
+            </div>
+            
+            <div class="footer-section">
+                <h3>Быстрые ссылки</h3>
+                <ul class="footer-links">
+                    <li><a href="../index.html">Главная</a></li>
+                    <li><a href="../index.html#menu">Меню</a></li>
+                    <li><a href="#">Акции</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer-section">
+                <h3>Социальные сети</h3>
+                <div class="social-links">
+                    <a href="#">VK</a>
+                    <a href="#">Telegram</a>
+                    <a href="#">YouTube</a>
+                </div>
+            </div>
+        </div>
+        
+        <div class="footer-bottom">
+            <p>&copy; 2025 Блинная «Сковородка». Все права защищены.</p>
+        </div>
+    </footer>
+
+        <!-- Кнопка "Наверх" -->
+<button id="backToTop" class="back-to-top-btn" aria-label="Наверх">
+    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+        <path d="M18 15l-6-6-6 6"/>
+    </svg>
+</button>
+
+    <!-- Модальное окно корзины -->
+    <div class="modal fade" id="cartModal" tabindex="-1" aria-labelledby="cartModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="cartModalLabel">Ваша корзина</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="cart-items">
+                        <!-- Товары будут добавляться сюда -->
+                    </div>
+                    <div class="cart-total text-end mt-3">
+                        <h5>Итого: <span class="total-price">0</span> руб.</h5>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Продолжить покупки</button>
+                    <button type="button" class="btn btn-warning clear-cart">Очистить корзину</button>
+                    <button type="button" class="btn btn-success">Оформить заказ</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Модальное окно подтверждения звонка -->
+    <div class="modal fade" id="callModal" tabindex="-1" aria-labelledby="callModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="callModalLabel">Подтверждение звонка</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p class="call-confirmation-text">
+                        <span class="call-text">Хотите позвонить по номеру</span>
+                        <strong class="phone-number">+7 (999) 123-3000</strong>
+                        <span class="call-text">?</span>
+                    </p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Отмена</button>
+                    <button type="button" class="btn btn-success" id="confirmCall">Позвонить</button>
+                </div>
+            </div>
+        </div>
+    </div>
+<!-- Модальное окно горячей линии -->
+<div class="modal fade" id="hotlineModal" tabindex="-1" aria-labelledby="hotlineModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="hotlineModalLabel">Горячая линия блинной «Сковородка»</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <form id="hotlineForm">
+                    <!-- Поле темы сообщения -->
+                    <div class="mb-3">
+                        <label for="messageTopic" class="form-label">Тема сообщения или запроса</label>
+                        <select class="form-select" id="messageTopic" required>
+                            <option value="" selected disabled>Выберите тему</option>
+                            <option value="Предложение">Предложение</option>
+                            <option value="Жалоба">Жалоба</option>
+                            <option value="Благодарность">Благодарность</option>
+                            <option value="Вопрос">Вопрос</option>
+                        </select>
+                    </div>
+                    
+                    <!-- Поле имени -->
+                    <div class="mb-3">
+                        <label for="userName" class="form-label">Имя *</label>
+                        <input type="text" class="form-control" id="userName" required>
+                    </div>
+                    
+                    <!-- Поле контакта -->
+                    <div class="mb-3">
+                        <label for="userContact" class="form-label">Телефон/Эл. адрес *</label>
+                        <input type="text" class="form-control" id="userContact" required>
+                    </div>
+                    
+                    <!-- Поле сообщения -->
+                    <div class="mb-3">
+                        <label for="userMessage" class="form-label">Сообщение *</label>
+                        <textarea class="form-control" id="userMessage" rows="4" required></textarea>
+                    </div>
+                    
+                    <!-- Чекбокс согласия -->
+                    <div class="mb-3 form-check">
+                        <input type="checkbox" class="form-check-input" id="privacyAgreement" required>
+                        <label class="form-check-label" for="privacyAgreement">
+                            Я даю согласие на обработку моих персональных данных в соответствии с Федеральным законом от 27.07.2006 года №152-ФЗ "О персональных данных"
+                        </label>
+                    </div>
+                    
+                    <!-- Кнопка отправки -->
+                    <div class="d-grid">
+                        <button type="submit" class="btn btn-primary hotline-submit-btn">
+                            Отправить
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+</body>
+
+
+</html>
+
